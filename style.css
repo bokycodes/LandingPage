@@ -62,7 +62,9 @@ button{
     cursor: pointer;
 }
 .information{
-    padding: 50px 20px;
+    padding: 100px;
+    padding-bottom: 150px;
+    
 }
 .information h3{
     font-size: 36px;
@@ -72,11 +74,11 @@ button{
     font-weight: bold;
 }
 .information p{
-    width: 150px;
-    font-size: 16px;
+    width: 300px;
+    font-size: 24px;
 }
 .information img{
-    width: 250px;
+    width: 300px;
     height: auto;
     border-radius: 6px;
 }
@@ -91,4 +93,26 @@ button{
     flex-direction: column;
     gap: 10px;
     flex-wrap: wrap;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    padding: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgba(31, 41, 55, 0.7);
+    margin: 30px 130px;
+}
+.author{
+    font-size: 24px;
+    align-self: flex-end;
+    margin-right: 130px;
 }
